@@ -15,3 +15,17 @@
 | Milline protsess kõige rohkem salvestusseadmele kirjutab, kõige rohkem salvestusseadmelt loeb? Millisesse faili antud protsess kõige rohkem kirjutab, millisest failist kõige rohkem loeb? (Ainult Windowsis)                                                                                                                                                                                                        |                                                                                                                    | Kirjutab ja loeb chrome.exe                                                                                                                                                 |                                                                                           | Task Manager -> Resource monitor      |
 | Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? Vali antud protsessi poolt kasutatavatest ühendustest üks ning kirjuta välja järgnev: kohalik IP-aadress, kohalik port, ühenduse teise poole IP-aadress, port, latents ja antud ühenduse poolt kasutatav võrguliikluse kogumaht. (Ainult Windowsis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit.                                     |                                                                                                                    | chrome.exe, kohalik IP-aadress: 192.168.10.9; kohalik port: 54504; teise poole IP: 198.252.206.25; teise poole port: 443; võrguliikluse kogumaht: 1052 B/sec; latents 112ms |                                                                                           | Task Manager -> Resource monitor      |
 | Sõber kurdab, et tema arvuti on oluliselt aeglasem kui varasemalt. Millise programmiga ja millise parameetrite abil saate tuvastada milline protsess või teenus muudab arvuti aeglaseks?                                                                                                                                                                                                                             | Näitab arvutis toimuvaid protsesse                                                                                 | Task Manager näitab programmide tegevusi ning erinevate ressursside kulukusi                                                                                                | top                                                                                       | Task Manager                          |
+
+Ül 12:
+![p1](https://user-images.githubusercontent.com/92860669/193823856-05953a52-05a8-44e1-a3e9-e33519fa73c1.jpg)
+
+![p2](https://user-images.githubusercontent.com/92860669/193823928-c97c36c9-072b-4af9-8895-02965d6b7249.jpg)
+
+Ül 13:
+
+![p3](https://user-images.githubusercontent.com/92860669/193823967-c4a24c01-b796-4c46-9e88-7aa10e7ad40a.jpg)
+
+
+
+
+
