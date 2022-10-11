@@ -15,8 +15,23 @@ Milliseid on minimaalsed õigused (rwx), mis on vajalikud teie tavakasutajal (ku
 
 ![image](https://user-images.githubusercontent.com/92860669/192531475-27941f1d-efd5-4fbc-8b38-e3552106a059.png)
 
-Tehke screenshot tulemusest, kus oleks näha hinded.txt failiõigused ja jukuisa käivituskäsk koos väljundiga ning lisage see oma viki lehele. Milleks on vaja setuid õigust?
+Tehke screenshot tulemusest, kus oleks näha hinded.txt failiõigused ja jukuisa käivituskäsk koos väljundiga ning lisage see oma viki lehele. Milleks on vaja setuid õigust? - setuid kasutatakse et anda õiguseid teisele kasutajale, et teine kasutaja saaks kasutada rakendusi.
 
 ![image](https://user-images.githubusercontent.com/92860669/195081250-69e98239-18cc-4990-95c9-da65e2aa7d8d.png)
 
-Kas setuid või setgid kasutamine võib vähendada süsteemi turvalisust? Kui jah, siis kuidas? - setuid ja setgid võivad anda valele kasutajale juurjuurdepääsu või tavalise juurdepääsu mõne teise kasutaja nimel oleva programmi käitamiseks.
+Kas setuid või setgid kasutamine võib vähendada süsteemi turvalisust? Kui jah, siis kuidas? - setuid ja setgid võivad anda valele kasutajale juurjuurdepääsu või juurdepääsu programmi käitamiseks.
+
+Kirjutage oma viki lehele kõik kasutajaid, kes saavad sticky bit õigustega yhiskaust kataloogist nüüd peeter kasutaja loodud faile kustutada. (vihje: õige vastus sisaldab vähemalt 3 eri kasutajat). - peeter, opetaja, root
+
+Seejärel uurige õigusi täpsemalt, kasutades käsku getfacl ning kopeerige see tulemus oma vikilehele:
+
+# file: hinded.txt
+# owner: opetaja
+# group: opetaja
+user::rw-
+group::---
+group:direktor:rw-
+mask::rw-
+other::---
+
+# Kes saab chattr +i parameetriga faili sisu modifitseerida (kirjutada)? Milliste käskudega saate kustutada testfail-2 nimelise faili (ehk kuidas siiski kustutada +i parameetriga faili). - mitte keegi ei saa selle faili sisu modifitseerida
