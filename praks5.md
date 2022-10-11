@@ -18,3 +18,5 @@ Milliseid on minimaalsed õigused (rwx), mis on vajalikud teie tavakasutajal (ku
 Tehke screenshot tulemusest, kus oleks näha hinded.txt failiõigused ja jukuisa käivituskäsk koos väljundiga ning lisage see oma viki lehele. Milleks on vaja setuid õigust?
 
 ![image](https://user-images.githubusercontent.com/92860669/195081250-69e98239-18cc-4990-95c9-da65e2aa7d8d.png)
+
+Kas setuid või setgid kasutamine võib vähendada süsteemi turvalisust? Kui jah, siis kuidas? - setuid ja setgid võivad anda valele kasutajale juurjuurdepääsu või tavalise juurdepääsu mõne teise kasutaja nimel oleva programmi käitamiseks.
