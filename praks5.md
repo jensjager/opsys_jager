@@ -15,4 +15,5 @@ Milliseid on minimaalsed õigused (rwx), mis on vajalikud teie tavakasutajal (ku
 
 ![image](https://user-images.githubusercontent.com/92860669/192531475-27941f1d-efd5-4fbc-8b38-e3552106a059.png)
 
-1. 
+Tehke screenshot tulemusest, kus oleks näha hinded.txt failiõigused ja jukuisa käivituskäsk koos väljundiga ning lisage see oma viki lehele. Milleks on vaja setuid õigust?
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/92860669/195081250-69e98239-18cc-4990-95c9-da65e2aa7d8d.png">
