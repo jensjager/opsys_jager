@@ -25,13 +25,13 @@ Kirjutage oma viki lehele kõik kasutajaid, kes saavad sticky bit õigustega yhi
 
 Seejärel uurige õigusi täpsemalt, kasutades käsku getfacl ning kopeerige see tulemus oma vikilehele:
 
-# file: hinded.txt
-# owner: opetaja
-# group: opetaja
+/# file: hinded.txt
+/# owner: opetaja
+/# group: opetaja
 user::rw-
 group::---
 group:direktor:rw-
 mask::rw-
 other::---
 
-# Kes saab chattr +i parameetriga faili sisu modifitseerida (kirjutada)? Milliste käskudega saate kustutada testfail-2 nimelise faili (ehk kuidas siiski kustutada +i parameetriga faili). - mitte keegi ei saa selle faili sisu modifitseerida
+/# Kes saab chattr +i parameetriga faili sisu modifitseerida (kirjutada)? Milliste käskudega saate kustutada testfail-2 nimelise faili (ehk kuidas siiski kustutada +i parameetriga faili). - mitte keegi ei saa selle faili sisu modifitseerida
