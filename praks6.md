@@ -15,7 +15,11 @@ Käsk: ps -axu | tr -s " " | cut -d" " -f11- | grep daemon
 
 Käsud:
 ps -axu | tr -s " " | cut -d" " -f11- | grep snap
+
 ip address show dev enp0s3 | grep "inet " | cut -d" " -f8-8
+
 ip address show dev enp0s3 | grep "inet " | cut -d" " -f8-8 >ipaddress.txt
 
-![image](https://user-images.githubusercontent.com/92860669/197053201-4e98e621-6482-4a15-8851-6d110eed75ef.png)
+xargs -n1 ping -c 2 -b < ipaddress.txt
+
+![image](https://user-images.githubusercontent.com/92860669/197053559-dfc99796-3f97-479f-8590-71836ca92aba.png)
