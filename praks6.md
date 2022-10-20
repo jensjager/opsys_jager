@@ -6,6 +6,16 @@
 
 ![image](https://user-images.githubusercontent.com/92860669/197043678-413c43db-d5bc-43c6-82d8-394032a92701.png)
 
-3. Koosta ja lisa wikisse käsujada, mis kuvab (modifitseerib) ps -axu | grep daemon väljundi nii et tulemuseks oleksid ainult programminimed koos lisaparameetritega 
+3. Koosta ja lisa wikisse käsujada, mis kuvab (modifitseerib) ps -axu | grep daemon väljundi nii et tulemuseks oleksid ainult programminimed koos lisaparameetritega
 
+Käsk: ps -axu | tr -s " " | cut -d" " -f11- | grep daemon
 ![image](https://user-images.githubusercontent.com/92860669/197044997-4fcdbf3c-7d71-4c43-be47-166c24e89d0d.png)
+
+4. Koosta ja lisa wikisse käsujada (ip a | grep ...| ... | cut ... jne), mis kuvab ekraanile vastuseks ainult arvuti ip aadressi (enamasti 10.0.2.15) ip a käsu väljundi põhjal.
+
+Käsud:
+ps -axu | tr -s " " | cut -d" " -f11- | grep snap
+ip address show dev enp0s3 | grep "inet " | cut -d" " -f8-8
+ip address show dev enp0s3 | grep "inet " | cut -d" " -f8-8 >ipaddress.txt
+
+![image](https://user-images.githubusercontent.com/92860669/197053201-4e98e621-6482-4a15-8851-6d110eed75ef.png)
