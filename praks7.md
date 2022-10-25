@@ -30,4 +30,5 @@ NTFS
 
 7.  Tehke ekraanipilt /etc/fstab faili sisust pärast iseseisva ülesande lahendamist (või muu tõestus/seadistamise juhend, et 4TB ketas haagitaks automaatselt kausta /mnt/bigdata Ubuntu käivitamisel).
 
+![image](https://user-images.githubusercontent.com/92860669/197899993-8ccfd42b-e6e8-4d68-bdb4-aca6bc4ff96b.png)
 
