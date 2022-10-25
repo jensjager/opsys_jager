@@ -11,10 +11,11 @@ MBR salvestab kogu info ühte kohta, võrreldes GPT-ga, mis salvestab erinevates
 
 3.  Lisage link https://kodu.ut.ee/~TÜ_kasutajatunus/hdd.png praktikumi aruandesse tõestuseks, et olete Ülesande TÜ võrguketta haakimine Windowsis edukalt lahendanud.
 
-
+https://kodu.ut.ee/~jensjaag/hdd.png
 
 4.  Lisage ls -la /mnt/ut/public_html käsu väljundi pilt aruandesse
 
+![image](https://user-images.githubusercontent.com/92860669/197867514-21aa615c-0bd4-4a9d-a0e6-d8dd3134ac5f.png)
 
 
 5.  Mida mõjutasid mount käsu parameetrid "-o ro" ja "-t auto"?
