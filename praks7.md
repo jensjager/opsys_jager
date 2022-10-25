@@ -20,11 +20,13 @@ https://kodu.ut.ee/~jensjaag/hdd.png
 
 5.  Mida mõjutasid mount käsu parameetrid "-o ro" ja "-t auto"?
 
+"-o ro" - paneb root, ehk juurkausta read-only
 
+"-t auto" - automaatselt leiab, kus kohas kasutatav failisüsteem on seadmes
 
 6.  mount käsu väljundist leidke üles, mis väärtusega Ubuntu asendas auto parameetri?
 
-
+NTFS
 
 7.  Tehke ekraanipilt /etc/fstab faili sisust pärast iseseisva ülesande lahendamist (või muu tõestus/seadistamise juhend, et 4TB ketas haagitaks automaatselt kausta /mnt/bigdata Ubuntu käivitamisel).
 
