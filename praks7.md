@@ -1,6 +1,6 @@
 1.  Miks andmekandjad vajavad lähtestamist? (sisukas vastus võiks omada põhjendust)
 
-
+Esiteks lähtestamine on vajalik ainult siis, kui ketas on uus ja sellel pole failisüsteeme. Lähtestamise eesmärgiks on valmistada andmekandja windowsi kasutamiseks. Pärast lähtestamist on võimalik luua partitsioone kettale ning neid vormindada.
 
 2.  Millised on GPT kasutamise eelised ja puudused võrreldes MBR'iga? (välja tuua vähemalt 3 eelist)
 
@@ -30,5 +30,4 @@ NTFS
 
 7.  Tehke ekraanipilt /etc/fstab faili sisust pärast iseseisva ülesande lahendamist (või muu tõestus/seadistamise juhend, et 4TB ketas haagitaks automaatselt kausta /mnt/bigdata Ubuntu käivitamisel).
 
-![image](https://user-images.githubusercontent.com/92860669/197899993-8ccfd42b-e6e8-4d68-bdb4-aca6bc4ff96b.png)
-
+![image](https://user-images.githubusercontent.com/92860669/198013052-aaee72f5-11fc-4055-b314-a0c61bfb1f63.png)
