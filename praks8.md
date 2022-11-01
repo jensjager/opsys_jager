@@ -4,3 +4,4 @@ Windows RAID 1 ülesandes 5 tehtud ekraanipildid.
 
 ![image](https://user-images.githubusercontent.com/92860669/199229158-30a7bbbb-36cd-4c5c-8132-057dbc0e4319.png)
 
+![image](https://user-images.githubusercontent.com/92860669/199243314-47dca395-a60a-4034-b9c0-0ab73dfdca90.png)
