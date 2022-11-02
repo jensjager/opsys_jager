@@ -10,3 +10,5 @@ Mul läks selle ülesande pilt kaduma, kuid ma tegin selle ilusti ära ja mu pin
 ![image](https://user-images.githubusercontent.com/92860669/199243314-47dca395-a60a-4034-b9c0-0ab73dfdca90.png)
 
 ![image](https://user-images.githubusercontent.com/92860669/199247553-7732d148-ed04-4627-a6d7-29f814440d1c.png)
+
+![image](https://user-images.githubusercontent.com/92860669/199365391-7112e096-e5f5-4981-bcb3-407bde53b8bd.png)
