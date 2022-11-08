@@ -27,4 +27,7 @@ Valisin maksimaalse kasutajakonto kontrolli, sest kunagi ei tea mis tarkvara kä
 6. Minimaalselt 2 ekraanivaadet testimise käigus esinenud keeluteavitustest, koos selgitusega mida ning millise kasutajaga tehti.
 
 ![image](https://user-images.githubusercontent.com/92860669/200590376-135362ab-5407-4d22-aeaf-069ee1152668.png)
-5 valet paroolisisestust
+5 valet paroolisisestust.
+
+![image](https://user-images.githubusercontent.com/92860669/200591340-5ef0830a-6d9b-469d-b964-04153f3074d8.png)
+tootaja1 kasutajana üritamas ligi pääseda tootaja2 kasutaja kausta.
