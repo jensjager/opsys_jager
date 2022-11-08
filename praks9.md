@@ -31,3 +31,11 @@ Valisin maksimaalse kasutajakonto kontrolli, sest kunagi ei tea mis tarkvara kä
 
 ![image](https://user-images.githubusercontent.com/92860669/200591340-5ef0830a-6d9b-469d-b964-04153f3074d8.png)
 tootaja1 kasutajana üritamas ligi pääseda tootaja2 kasutaja kausta.
+
+7. Ekraanivaade Event Vieweri aknast, kus näha ebaõnnestunud sisselogimiskatsete logikirje
+
+![image](https://user-images.githubusercontent.com/92860669/200594118-c27cf16e-b06b-4558-a75a-f047e7b9544e.png)
+
+8. Tehke ekraanivaade DisplayLastLogonInfo registrivõtmest koos väärtusega 1.
+
+![image](https://user-images.githubusercontent.com/92860669/200596281-df4e3216-fc60-4ca5-b2e7-1ae8194197b8.png)
