@@ -51,3 +51,25 @@ do
 done
 ```
 ![image](https://user-images.githubusercontent.com/92860669/201931351-a556976c-4f0c-46c2-94b7-8ea0d79bcc1c.png)
+
+Ülesanne 6:
+```
+#!/bin/bash
+astandamine () {
+    a=1
+    for i in $(seq $2 $END)
+    do
+        a=$(($a*$1))
+    done
+    echo $a
+}
+
+echo "Sisesta astendatav: "
+read astendatav
+echo "Sisesta astendaja: "
+read astendaja
+
+echo $(astandamine $astendatav $astendaja)
+```
+
+![image](https://user-images.githubusercontent.com/92860669/201934063-f0702229-abc0-4f63-b9c1-ed9ac45daeb1.png)
