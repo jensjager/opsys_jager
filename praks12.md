@@ -4,11 +4,17 @@ Amazon Web Services (AWS), Microsoft Azure ja Google Cloud Platform (GCP)
 
 2. Nimetage 5 eelist, mis on pilveteenustel võrreldes enda teenuste füüsilistel masinatel majutamisega?
 
-
+  1. Turvalisus
+  2. Skaleeritavus ja paindlikkus
+  3. Andmete varukoopiad
+  4. Säästud
+  5. Mugavus ja koostöö
 
 3. Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?
 
-
+ 1. Kui sul on aeglane internet.
+ 2. Kui sul on tähtis informatsioon, mida kaitsta tahad.
+ 3. Pikaajaline "subsription" läheb kulukaks, ei pruugi väärt olla.
 
 4. Mis on vahet IAAS ja SAAS ja PAAS tenustel?
 
