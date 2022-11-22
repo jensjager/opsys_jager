@@ -4,3 +4,4 @@
 
 2. Võrgu konfiguratsioon (IP-aadress, võrgu mask (network mask), gateway, kas DHCP on lubatud ja MAC aadress (vihje vaata näidet juhendist).
 
+Get-WmiObject Win32_NetworkAdapterConfiguration -Filter "IPEnabled='True'" | Select-Object DHCPEnabled, MACAddress, Description, IPAddress, IPSubnet, DefaultIPGateway | Sort-Object DHCPEnabled | Format-List | Out-File -FilePath "C:\Users\jens\Desktop\test.txt"
