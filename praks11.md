@@ -52,3 +52,6 @@ Get-Process | select name, id, starttime | Sort-Object starttime | Select-Object
 ```
 Get-Date | Format-List | Out-File -FilePath "C:\Users\jens\Desktop\test.txt"
 ```
+[test.txt](https://github.com/jensjager/opsys_jager/files/10067913/test.txt)
+
+
