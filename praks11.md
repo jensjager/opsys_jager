@@ -43,12 +43,12 @@ Get-LocalUser | select Name, Description, PrincipalSource, Enabled | Format-List
 (Get-Process).Count| Format-List | Out-File -FilePath "C:\Users\jens\Desktop\test.txt"
 ```
 
-10. 10 viimasena käivitatud protsessi (nimi, PID ja käivitamise aeg (StartTime). Sorteerimise aluseks võtta StartTime parameeter.
+9. 10 viimasena käivitatud protsessi (nimi, PID ja käivitamise aeg (StartTime). Sorteerimise aluseks võtta StartTime parameeter.
 ```
 Get-Process | select name, id, starttime | Sort-Object starttime | Select-Object -Last 10 | Format-List | Out-File -FilePath "C:\Users\jens\Desktop\test.txt"
 ```
 
-12. Arvuti kuupäev ja kellaaeg.
+10. Arvuti kuupäev ja kellaaeg.
 ```
 Get-Date | Format-List | Out-File -FilePath "C:\Users\jens\Desktop\test.txt"
 ```
