@@ -48,15 +48,17 @@
 
 11. Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis
 
-    
+    <img width="601" alt="image" src="https://user-images.githubusercontent.com/92860669/205132730-ac516e17-1a0b-4a52-9bdc-597351055418.png">
 
 12. Pange kirja 3 kasutegurit WSLi juures
 
-
+    1) WSL võimaldab Windowsi ja Linuxi koostalitlusvõimet.
+    2) Kuna WSL töötab juba Windowsis, ei pea VM-i kasutama. WSL nõuab vähem ressursse kui täielik VM.
+    3) Võimaldab avatud lähtekoodiga tööriistu kasutavatel arendajatel jätkata Windowsiga töötamist.
 
 13. Tehke kuvatõmmis sellest, kui olete listinud WSL-is enda kodukusta sisu
 
-
+    <img width="636" alt="image" src="https://user-images.githubusercontent.com/92860669/205135925-c7062ea8-0332-4218-8436-9192d1f86509.png">
 
 14. Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse.
 
