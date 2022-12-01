@@ -62,4 +62,7 @@
 
 14. Tehke valmis WSLi skript, mis leiab üles minu talletatud paroolid. PS! need on talletatud ainult md failidesse.
 
-
+    ```
+    for f in ./*.md; do cat $f; done
+    ```
+   
