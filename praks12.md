@@ -44,11 +44,11 @@
 
 10. Tehke kohast, kus on näidatud, et teil on Auto Shutdown enablitud kuvatõmmis
 
-
+    ![image](https://user-images.githubusercontent.com/92860669/205126439-d6928c1e-caae-49ef-9b58-2b2c94087d16.png)
 
 11. Tehke enda virtuaalmasinas Settings->System->About vaatest kuvatõmmis
 
-
+    
 
 12. Pange kirja 3 kasutegurit WSLi juures
 
