@@ -12,9 +12,9 @@ Amazon Web Services (AWS), Microsoft Azure ja Google Cloud Platform (GCP)
 
 3. Nimetage 3 situatsiooni, kus pole pilveteenuse kasutamine mõistlik?
 
- 1. Kui sul on aeglane internet.
- 2. Kui sul on tähtis informatsioon, mida kaitsta tahad.
- 3. Pikaajaline "subsription" läheb kulukaks, ei pruugi väärt olla.
+ 1) Kui sul on aeglane internet.
+ 2) Kui sul on tähtis informatsioon, mida kaitsta tahad.
+ 3) Pikaajaline "subsription" läheb kulukaks, ei pruugi väärt olla.
 
 4. Mis on vahet IAAS ja SAAS ja PAAS tenustel?
 
